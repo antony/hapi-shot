@@ -1,0 +1,21 @@
+{
+  "name": "hapi-seed",
+  "version": "1.0.0",
+  "description": "A seed project for a new Hapi v17+ application",
+  "main": "index.js",
+  "dependencies": {
+    "bell": "^9.1.0",
+    "hapi": "^17.2.2",
+    "hoek": "^5.0.3",
+    "joi": "^13.1.2"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "start": "NODE_PATH=lib node .",
+    "test": "NODE_PATH=lib jest"
+  },
+  "author": "Antony Jones",
+  "license": "MIT"
+}
